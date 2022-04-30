@@ -16,10 +16,12 @@ function SeculoAno($ano){
 		$seculo = intval($seculo) + 1; //Converte para inteiro para poder realizar a soma
 	}
 
-	echo "Ano ".$ano." = século ".$seculo;
+	echo "Ano ".$ano." = século ".$seculo."</br>";
 
 }
 
 //Chamada de teste da função
 SeculoAno(1905);
+
+SeculoAno(1700);
 ?>
